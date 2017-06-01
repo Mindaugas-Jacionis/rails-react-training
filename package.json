@@ -6,6 +6,9 @@
   "directories": {
     "test": "test"
   },
+  "scripts": {
+    "start": "webpack -w -d"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mindaugas-Jacionis/rails-react-training.git"
