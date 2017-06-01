@@ -1,0 +1,29 @@
+{
+  "name": "rails-react-training",
+  "version": "1.0.0",
+  "description": "Twitter clone, written in React.js and Rails",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mindaugas-Jacionis/rails-react-training.git"
+  },
+  "author": "Mindaugas Jacionis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mindaugas-Jacionis/rails-react-training/issues"
+  },
+  "homepage": "https://github.com/Mindaugas-Jacionis/rails-react-training#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
