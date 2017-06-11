@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import Greet from './Greet';
+import { TweetBox } from './components';
 
 class Main extends Component {
   render() {
     return(
-      <Greet />
+      <div className="container">
+        <TweetBox />
+      </div>
     );
   }
 }

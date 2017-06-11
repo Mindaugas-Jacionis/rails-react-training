@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "start": "webpack -w -d"
+    "start": "webpack -w -d",
+    "webpack-server": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,18 @@
   },
   "homepage": "https://github.com/Mindaugas-Jacionis/rails-react-training#readme",
   "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
     "react": "^15.5.4",
